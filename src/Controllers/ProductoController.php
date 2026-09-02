@@ -1,20 +1,16 @@
 <?php
 
-namespace Src\Controllers;
+namespace Controllers;
 
 use App\Http\Controllers\Controller;
-use Src\Services\ProductoService;
+use Services\ProductoService;
 use Illuminate\Http\Request;
 
 class ProductoController extends Controller
 {
     protected $productoService;
 
-    /**
-     * SOLID: Single Responsibility Principle (SRP)
-     * El controlador solo se encarga de recibir peticiones HTTP y devolver respuestas.
-     * La lógica de negocio está delegada a ProductoService (Inyección de dependencias).
-     */
+    
     public function __construct(ProductoService $productoService)
     {
         $this->productoService = $productoService;
