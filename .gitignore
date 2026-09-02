@@ -1,0 +1,34 @@
+/vendor
+/storage
+/bootstrap/cache
+/public/build
+/node_modules
+/.env
+.phpunit.result.cache
+*.log
+.DS_Store
+
+# Excluir todo el boilerplate de Laravel descargado temporalmente, 
+# para que tu repositorio solo tenga tu código (Pregunta del examen)
+/app
+/bootstrap
+/config
+/database/factories
+/database/seeders
+/public
+/storage
+/tests
+/artisan
+/composer.*
+/package.json
+/phpunit.xml
+/README.md
+/vite.config.js
+/AGENTS.md
+/CLAUDE.md
+
+# Solo dejar lo que te pidieron en el examen explícitamente:
+!/src/
+!/resources/
+!/routes/
+!/database/migrations/
