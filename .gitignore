@@ -17,7 +17,7 @@
 /database/seeders
 /public
 /storage
-/tests
+
 /artisan
 /composer.*
 /package.json
@@ -32,3 +32,4 @@
 !/resources/
 !/routes/
 !/database/migrations/
+!/tests/
