@@ -23,4 +23,9 @@ class ProductoService
         // Aquí puede ir lógica adicional de negocio, validaciones complejas, etc.
         return Producto::create($datos);
     }
+
+    public function calcularDescuento(float $precio, float $porcentajeDescuento): float
+    {
+        return $precio - ($precio * ($porcentajeDescuento / 100));
+    }
 }
