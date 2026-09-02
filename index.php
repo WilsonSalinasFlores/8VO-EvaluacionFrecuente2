@@ -6,8 +6,8 @@ $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 require_once __DIR__ . '/mock_laravel.php';
 
-use Src\Controllers\ProductoController;
-use Src\Services\ProductoService;
+use Controllers\ProductoController;
+use Services\ProductoService;
 use Illuminate\Http\Request;
 
 // Routing básico (Mock de Route::get y Route::post)
